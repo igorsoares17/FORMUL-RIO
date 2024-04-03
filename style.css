@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+body{
+    background: linear-gradient(to bottom right, black, rgb(82, 82, 255));
+    width: 100%;
+   
+    
+}
+
+@media screen and (min-width: 1070px){
+
+    body{
+
+        height: 100vh;
+    }
+
+    header{
+
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding-top: 2%;
+    }
+
+    h1{
+
+        width: 40%;
+        font-size: 2.5vw;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 10px;
+        background-color: #abd8fc;
+        color: #2c5cfc;
+        border: 4px solid #2c5cfc;
+        padding: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+    }
+
+    main{
+
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 4%; 
+        padding-bottom: 2%;
+
+        margin-left: 5%;
+
+    }
+
+
+    section{
+
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 8%;
+    }
+
+   
+
+    h3{
+        width: 95%;
+        text-align: center;
+        font-size: 1.8vw;
+        font-weight: bold; 
+        background-color: #abd8fc;
+        color: #2c5cfc;
+        border: 4px solid #2c5cfc;
+        padding: 1%;
+        border-radius: 10px;
+
+    }
+
+    figure{
+
+        width: 70%;
+
+    }
+
+    img{
+        width: 100%;
+    }
+
+    form{
+        margin-left: 5%;
+        color: #fff;
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    #this{
+
+        margin-bottom: 8%;
+    }
+
+    .desc{
+
+        
+        font-size: 1.5vw;
+        margin-left: 5%;
+        margin-bottom: 1%;
+    }
+
+    input {
+
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10%;
+        border-radius: 10px;
+        padding-top: 3%;
+        padding-left: 2%;
+        font-size: 1.5vw;
+        color: rgb(57, 55, 55);
+        
+    }
+
+    #dv{
+        font-size: 1.3vw;
+   
+    }
+
+    a{
+        text-align: center;
+        color: blue;
+        background-color: #fff;
+        border-radius: 10px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2%;
+        margin-top: 3%;
+    }
+
+    button{
+
+        font-size: 1.5vw;
+        width: 90%;
+        padding: 3%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        background-color: blue;
+        padding: 3%;
+        color: #fff;
+        cursor: pointer;
+   
+    }
+
+    button:hover{
+        background-color: rgb(32, 32, 198);
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1070px){
+
+    header{
+
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding-top: 4%;
+    }
+
+    h1{
+
+        width: 55%;
+        font-size: 4vw;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 10px;
+        background-color: #abd8fc;
+        color: #2c5cfc;
+        border: 4px solid #2c5cfc;
+        padding: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+    }
+
+    main{
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 4%; 
+        padding-bottom: 10%;
+
+    }
+
+
+    section{
+
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+   
+
+    h3{
+        width: 80%;
+        text-align: center;
+        font-size: 3vw;
+        font-weight: bold; 
+        background-color: #abd8fc;
+        color: #2c5cfc;
+        border: 4px solid #2c5cfc;
+        padding: 1%;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8%;
+
+    }
+
+    figure{
+
+        width: 70%;
+
+    }
+
+    img{
+        width: 100%;
+    }
+
+    form{
+        color: #fff;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    #this{
+
+        margin-bottom: 8%;
+    }
+
+    .desc{
+
+        
+        font-size: 3vw;
+        margin-left: 5%;
+        margin-bottom: 1%;
+    }
+
+    input {
+
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10%;
+        border-radius: 10px;
+        padding-top: 3%;
+        padding-left: 2%;
+        font-size: 3vw;
+        color: rgb(57, 55, 55);
+        
+    }
+
+    #dv{
+        font-size: 1.3vw;
+   
+    }
+
+    a{
+        text-align: center;
+        color: blue;
+        background-color: #fff;
+        border-radius: 10px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2%;
+        margin-top: 3%;
+        font-size: 3vw;
+    }
+
+    button{
+
+        font-size: 3vw;
+        width: 90%;
+        padding: 3%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        background-color: blue;
+        padding: 3%;
+        color: #fff;
+        cursor: pointer;
+   
+    }
+
+    button:hover{
+        background-color: rgb(32, 32, 198);
+    }
+    
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px){
+
+    header{
+
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding-top: 4%;
+    }
+
+    h1{
+
+        width: 60%;
+        font-size: 4.5vw;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 10px;
+        background-color: #abd8fc;
+        color: #2c5cfc;
+        border: 4px solid #2c5cfc;
+        padding: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+    }
+
+    main{
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 4%; 
+        padding-bottom: 10%;
+
+    }
+
+
+    section{
+
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+   
+
+    h3{
+        width: 80%;
+        text-align: center;
+        font-size: 4vw;
+        font-weight: bold; 
+        background-color: #abd8fc;
+        color: #2c5cfc;
+        border: 4px solid #2c5cfc;
+        padding: 1%;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8%;
+
+    }
+
+    figure{
+
+        width: 80%;
+
+    }
+
+    img{
+        width: 100%;
+    }
+
+    form{
+        color: #fff;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    #this{
+
+        margin-bottom: 8%;
+    }
+
+    .desc{
+
+        
+        font-size: 4vw;
+        margin-left: 5%;
+        margin-bottom: 1%;
+    }
+
+    input {
+
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10%;
+        border-radius: 10px;
+        padding-top: 3%;
+        padding-left: 2%;
+        font-size: 4vw;
+        color: rgb(57, 55, 55);
+        
+    }
+
+    #dv{
+        font-size: 1.3vw;
+   
+    }
+
+    a{
+        text-align: center;
+        color: blue;
+        background-color: #fff;
+        border-radius: 10px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2%;
+        margin-top: 3%;
+        font-size: 4vw;
+    }
+
+    button{
+
+        font-size: 4vw;
+        width: 90%;
+        padding: 3%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        background-color: blue;
+        padding: 3%;
+        color: #fff;
+        cursor: pointer;
+   
+    }
+
+    button:hover{
+        background-color: rgb(32, 32, 198);
+    }
+    
+}
+
